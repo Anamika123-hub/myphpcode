@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .animate{
+            width:150px;
+            height:150px;
+            background: green;
+            animation-name:myanimation;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+
+        }
+        @keyframes myanimation{
+            0%{background:green;width:150px;height:150px;margin-left:0px;margin-top:0px;}
+            30%{background:green;width:150px;height:150px;margin-left:1050px;margin-top:0px;}
+            60%{background: green;width:150px;height:150px;margin-left:1000px;margin-top:450px;}
+        }
+        
+    </style>
+</head>
+<body>
+<div class="animate">
+
+</div>
+</body>
+</html>

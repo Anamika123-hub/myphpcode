@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .mybox{
+        width:200px;
+        height:300px;
+        background: url('wolf.jpeg');
+        background-size: 100% 100%;
+        position: relative;
+        overflow:hidden; 
+    }
+    .box{
+        width:100%;
+        height:100%;
+        background:grey;
+        position:absolute;
+        left:200px;
+        transition:2s;
+    }
+    .mybox:hover .box{
+        left:0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="mybox">
+        <div class="box">
+            THIS IS WOLF
+        </div>
+    </div>
+    
+</body>
+</html>
